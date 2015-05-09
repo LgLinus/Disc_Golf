@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Disc Golf</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_round_start">Start round</string>
+    <string name="main_profile_managment">Profile managment</string>
+    <string name="main_course_managment">Course managment</string>
+    <string name="main_help">Help</string>
+    <string name="main_match_history">Match history</string>
+    <string name="setup_round">Setup round</string>
+    <string name="select_course">Select course</string>
+    <string name="select_players">Select players</string>
+    <string name="title_activity_fragment__select__course">Fragment_Select_Course</string>
+    <string name="title_activity_fragment__select__player">Fragment_Select_Player</string>
+    <string name="total_players">Total players: </string>
+    <string name="hole">Hole </string>
+    <string name="none">None </string>
+    <string name="selected_course">Selected course: </string>
+</resources>

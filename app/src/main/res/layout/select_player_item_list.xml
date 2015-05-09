@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_subtitle_size"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/tv_player_name"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:focusable="false"
+        android:layout_alignParentRight="true"
+        android:id="@+id/cb_player_select"/>
+</RelativeLayout>

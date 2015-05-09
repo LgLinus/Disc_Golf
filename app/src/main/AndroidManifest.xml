@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.golf.disc.lg.linus.dis_golf" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main_menu"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Fragment_Select_Course"
+            android:label="@string/title_activity_fragment__select__course" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Activity_Setup_Round">
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:name=".Activity_Round_Started">
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Fragment_Select_Player"
+            android:label="@string/title_activity_fragment__select__player" >
+        </activity>
+    </application>
+
+</manifest>
